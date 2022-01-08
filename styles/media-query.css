@@ -1,0 +1,214 @@
+/* start small media */
+@media (max-width: 767px) {
+    /* start home page */
+    /* start header */
+    header .container {
+        flex-direction: column;
+    }
+    header .container nav {
+        margin-bottom: 10px;
+    }
+    /* end header */
+
+    /* fold section */
+    #fold {
+        height: 420px;
+    }
+    #fold .container h1 {
+        font-size: 35px;
+    }
+    #fold .container p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    /* end fold section */
+
+    /* start about section */
+    #about .container {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    #about .container .about-content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #about .container .about-content p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    #about .container .about-img {
+        width: 100%;
+        transition: none;
+    }
+    #about .container .about-img:hover {
+        transform: none;
+    }
+    /* end about section */
+
+    /* start services section */
+    #services .container {
+        padding-bottom: 0;
+    }
+    #services .container .service {
+        width: 100%;
+    }
+    /* end services section */
+
+    /* start contact section */
+    #contact .container form {
+        width: 100%;
+    }
+    #contact .container form .contact-message-submit {
+        width: 32.5%;
+    }
+    /* end contact section */
+    /* end home page */
+
+    /* start about page */
+    #about-fold {
+        height: 215px;
+    }
+    #about-us-content .container {
+        text-align: center;
+    }
+    #about-us-content .container p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    #about-us-icons .container {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    #about-us-icons .container .icon {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    /* end about page */
+
+    /* start services page */
+    #services-fold {
+        height: 215px;
+    }
+    /* end services page */
+
+    /* start contact page */
+    #contact-fold {
+        height: 215px;
+    }
+    #contact-us .container {
+        flex-direction: column;
+    }
+    #contact-us .container .info {
+        width: 100%;
+    }
+    #contact-us .container form {
+        width: 100%;
+    }
+    #contact-us .container form .contact-message-submit {
+        width: 32.5%;
+    }
+    /* end contact page */
+    }
+/* end small media */
+
+/* start medium media */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* start home page */
+    /* start about section */
+    #about .container {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    #about .container .about-content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #about .container .about-content p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    #about .container .about-img {
+        width: 100%;
+        transition: none;
+    }
+    #about .container .about-img:hover {
+        transform: none;
+    }
+    /* end about section */
+
+    /* start services section */
+    #services .container {
+        padding-bottom: 0;
+    }
+    #services .container .service {
+        width: 48%;
+    }
+    /* end services section */
+
+    /* start contact section */
+    #contact .container form .contact-message-submit {
+        width: 30%;
+    }
+    /* end contact section */
+    /* end home page */
+
+    /* start about page */
+    #about-fold {
+        height: 440px;
+    }
+    #about-us-content .container {
+        text-align: center;
+    }
+    #about-us-content .container p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    #about-us-icons .container .icon p {
+        line-height: 1.3;
+        font-size: 15px;
+    }
+    /* end about page */
+
+    /* start services page */
+    #services-fold {
+        height: 355px;
+    }
+    #services .container .service:last-child {
+        margin: 0 auto;
+    }
+    /* end services page */
+
+    /* start contact page */
+    #contact-fold {
+        height: 425px;
+    }
+    #contact-us .container {
+        flex-direction: column;
+    }
+    #contact-us .container .info {
+        width: 100%;
+    }
+    #contact-us .container .info p:last-child {
+        font-size: 20px;
+    }
+    #contact-us .container form {
+        width: 80%;
+    }
+    #contact-us .container form .contact-message-submit {
+        width: 30%;
+    }
+    /* end contact page */
+}
+/* end medium media */
+
+/* retouch for contact section and page */
+@media (max-width: 530px) {
+    #contact-us .container form .contact-message-submit {
+        width: 100%;
+    }
+    #contact .container form .contact-message-submit {
+        width: 100%;
+    }
+}
